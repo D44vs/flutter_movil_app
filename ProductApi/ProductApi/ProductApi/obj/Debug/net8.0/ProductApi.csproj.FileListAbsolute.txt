@@ -1,0 +1,67 @@
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.Development.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.staticwebassets.endpoints.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.exe
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.deps.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.runtimeconfig.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.pdb
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.AssemblyReference.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfoInputs.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfo.cs
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.CoreCompileInputs.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\scopedcss\bundle\ProductApi.styles.css
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.development.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.Up2Date
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.pdb
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
+E:\Material-Moviles\Ejercicio Crear y consumir Api\ProductAPI\ProductApi\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.Development.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\appsettings.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.staticwebassets.endpoints.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.exe
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.deps.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.runtimeconfig.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\ProductApi.pdb
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.AssemblyReference.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfoInputs.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.AssemblyInfo.cs
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.CoreCompileInputs.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.sourcelink.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\scopedcss\bundle\ProductApi.styles.css
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.development.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.csproj.Up2Date
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.pdb
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
+D:\Desktop\Flutter_Desk\flutter_movil_app\ProductApi\ProductApi\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll

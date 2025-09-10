@@ -1,56 +1,124 @@
+// import 'dart:convert';
+// import 'package:http/http.dart' as http;
+// import '../models/product.dart';
+
+// class ApiService {
+//   final String baseUrl = "http://localhost:7059/Product";
+//   // ⚠️ Cambia el puerto al que Swagger te muestre
+
+//   Future<List<Product>> getProducts() async {
+//     final response = await http.get(Uri.parse("$baseUrl/GetProducts"));
+//     if (response.statusCode == 200) {
+//       List<dynamic> data = json.decode(response.body);
+//       return data.map((item) => Product.fromJson(item)).toList();
+//     } else {
+//       throw Exception("Error al obtener productos");
+//     }
+//   }
+
+//   Future<Product> createProduct(Product product) async {
+//   final response = await http.post(
+//     Uri.parse("$baseUrl/CreateProduct"),
+//     headers: {"Content-Type": "application/json"},
+//     body: json.encode({
+//       "name": product.name,
+//       "description": product.description,
+//       "price": product.price,
+//       "category": product.category
+//     }),
+//   );
+
+//   if (response.statusCode == 200) {
+//     return Product.fromJson(json.decode(response.body));
+//   } else {
+//     throw Exception("Error al crear producto: ${response.body}");
+//   }
+// }
+
+
+//   Future<Product> updateProduct(Product product) async {
+//     final response = await http.post(
+//       Uri.parse("$baseUrl/UpdateProduct"),
+//       headers: {"Content-Type": "application/json"},
+//       body: json.encode(product.toJson()),
+//     );
+//     if (response.statusCode == 200) {
+//       return Product.fromJson(json.decode(response.body));
+//     } else {
+//       throw Exception("Error al actualizar producto");
+//     }
+//   }
+
+//   Future<void> deleteProduct(int id) async {
+//     final response = await http.post(
+//       Uri.parse("$baseUrl/DeleteProduct"),
+//       headers: {"id": id.toString()},
+//     );
+//     if (response.statusCode != 200) {
+//       throw Exception("Error al eliminar producto");
+//     }
+//   }
+// }
+
+
 import 'dart:convert';
-import 'package:flutter_movil_app/pages/homepage.dart';
 import 'package:http/http.dart' as http;
-// import 'main.dart'; // para usar la clase Item
+import '../models/product.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://localhost:7232/api/comidas'; // tu Swagger
+  // 👉 Usa HTTP (no HTTPS) para evitar problemas de certificado
+  static const String baseUrl = "http://localhost:5059/Product";
 
-  static Future<List<Item>> getItems() async {
-    final response = await http.get(Uri.parse(baseUrl));
+  // GET: traer productos
+  static Future<List<Product>> getProducts() async {
+    final response = await http.get(Uri.parse("$baseUrl/GetProducts"));
     if (response.statusCode == 200) {
-      final List data = jsonDecode(response.body);
-      return data.map((json) => Item(
-        id: json['id'],
-        name: json['name'],
-        description: json['description'],
-      )).toList();
+      final List<dynamic> body = jsonDecode(response.body);
+      return body.map((e) => Product.fromJson(e)).toList();
     } else {
-      throw Exception('Error al obtener items');
+      throw Exception("Error al cargar productos: ${response.statusCode}");
     }
   }
 
-  static Future<Item> addItem(Item item) async {
+  // POST: crear producto
+  static Future<Product> createProduct(Product product) async {
     final response = await http.post(
-      Uri.parse(baseUrl),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'name': item.name, 'description': item.description}),
+      Uri.parse("$baseUrl/CreateProduct"),
+      headers: {"Content-Type": "application/json"},
+      body: jsonEncode(product.toJsonRequest()), // usa RequestProduct
     );
-    if (response.statusCode == 201 || response.statusCode == 200) {
-      final json = jsonDecode(response.body);
-      return Item(id: json['id'], name: json['name'], description: json['description']);
+
+    if (response.statusCode == 200) {
+      return Product.fromJson(jsonDecode(response.body));
     } else {
-      throw Exception('Error al agregar item');
+      throw Exception("Error al crear producto");
     }
   }
 
-  static Future<Item> updateItem(Item item) async {
-    final response = await http.put(
-      Uri.parse('$baseUrl/${item.id}'),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'id': item.id, 'name': item.name, 'description': item.description}),
+  // POST: actualizar producto
+  static Future<Product> updateProduct(Product product) async {
+    final response = await http.post(
+      Uri.parse("$baseUrl/UpdateProduct"),
+      headers: {"Content-Type": "application/json"},
+      body: jsonEncode(product.toJson()),
     );
-    if (response.statusCode == 200 || response.statusCode == 204) {
-      return item;
+
+    if (response.statusCode == 200) {
+      return Product.fromJson(jsonDecode(response.body));
     } else {
-      throw Exception('Error al actualizar item');
+      throw Exception("Error al actualizar producto");
     }
   }
 
-  static Future<void> deleteItem(int id) async {
-    final response = await http.delete(Uri.parse('$baseUrl/$id'));
-    if (response.statusCode != 204 && response.statusCode != 200) {
-      throw Exception('Error al eliminar item');
+  // POST: eliminar producto
+  static Future<void> deleteProduct(int id) async {
+    final response = await http.post(
+      Uri.parse("$baseUrl/DeleteProduct"),
+      headers: {"id": id.toString()},
+    );
+
+    if (response.statusCode != 200) {
+      throw Exception("Error al eliminar producto");
     }
   }
 }
